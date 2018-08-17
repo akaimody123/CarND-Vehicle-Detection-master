@@ -15,7 +15,6 @@ The goals / steps of this project are the following:
 * Estimate a bounding box for vehicles detected.
 
 
-
 [//]: # (Image References)
 [image1]: ./car_not_car.png
 [image2]: ./hog.jpg
@@ -52,14 +51,17 @@ You're reading it!
 The code for this step is contained in the first code cell of the IPython notebook (or in lines # through # of the file called `some_file.py`).  
 
 I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
+
 ![alt text][image1]
 
 I then explored different color spaces and different `skimage.hog()` parameters (`orientations`, `pixels_per_cell`, and `cells_per_block`).  I grabbed random images from each of the two classes and displayed them to get a feel for what the `skimage.hog()` output looks like.
 
 Here is an example using the `YCrCb` color space and HOG parameters of `orientations=32`, `pixels_per_cell=(16, 16)` and `cells_per_block=(2, 2)`:
+
 ![alt text][image2]
 
 Following is for non_vehicle HOG
+
 ![alt text][image8]
 
 #### 2. Explain how you settled on your final choice of HOG parameters.
@@ -98,7 +100,6 @@ Ultimately I searched on two scales using YCrCb 3-channel HOG features plus spat
 ![alt text][image10]
 ![alt text][image11]
 ![alt text][image12]
-
 ![alt text][image13]
 
 
@@ -124,8 +125,6 @@ Here's an example result showing the heatmap from a series of frames of video, t
 ![alt text][image17]
 ![alt text][image18]
 ![alt text][image19]
-
-
 
 ---
 
