@@ -14,27 +14,29 @@ The goals / steps of this project are the following:
 * Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
 
+
+
 [//]: # (Image References)
 [image1]: ./car_not_car.png
-[image2]: .hog.jpg
-[image3]: .sliding_window1.jpg
-[image4]: .sliding_window1.jpg
-[image9]: .sliding_window2.jpg
-[image10]: .sliding_window3.jpg
-[image11]: .sliding_window4.jpg
-[image12]: .sliding_window5.jpg
-[image13]: .sliding_window6.jpg
-[image14]: .heatmap1.jpg
-[image15]: .heatmap2.jpg
-[image16]: .heatmap3.jpg
-[image17]: .heatmap4.jpg
-[image18]: .heatmap5.jpg
-[image19]: .heatmap6.jpg
+[image2]: ./hog.jpg
+[image3]: ./sliding_window1.jpg
+[image4]: ./sliding_window1.jpg
+[image9]: ./sliding_window2.jpg
+[image10]: ./sliding_window3.jpg
+[image11]: ./sliding_window4.jpg
+[image12]: ./sliding_window5.jpg
+[image13]: ./sliding_window6.jpg
+[image14]: ./heatmap1.jpg
+[image15]: ./heatmap2.jpg
+[image16]: ./heatmap3.jpg
+[image17]: ./heatmap4.jpg
+[image18]: ./heatmap5.jpg
+[image19]: ./heatmap6.jpg
 [image5]: ./examples/bboxes_and_heat.png
 [image6]: ./examples/labels_map.png
 [image7]: ./examples/output_bboxes.png
-[image8]: .hog1.jpg
-[video1]: ./project_video_output.mp4
+[image8]: ./hog1.jpg
+[video1]: ./project_videos_output.mp4
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
