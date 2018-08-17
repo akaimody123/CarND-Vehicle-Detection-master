@@ -14,7 +14,6 @@ The goals / steps of this project are the following:
 * Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
 
-
 [//]: # (Image References)
 [image1]: ./car_not_car.png
 [image2]: ./hog.jpg
@@ -61,7 +60,6 @@ Here is an example using the `YCrCb` color space and HOG parameters of `orientat
 ![alt text][image2]
 
 Following is for non_vehicle HOG
-
 ![alt text][image8]
 
 #### 2. Explain how you settled on your final choice of HOG parameters.
